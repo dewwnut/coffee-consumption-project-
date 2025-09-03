@@ -4,8 +4,8 @@ This project analyzes global coffee consumption data and visualizes the top coff
 The goal is to practice **data cleaning, visualization, and insights** with Python.
 
 ---
-## Project Structure
-```
+## Project Layout
+```bash
 │
 ├── data/
 │   └── raw/
@@ -25,26 +25,36 @@ The goal is to practice **data cleaning, visualization, and insights** with Pyth
 ├── requirements.txt                 # Python dependencies
 ├── README.md                        # Project description & instructions
 └── .gitignore                       # Files/folders to ignore in Git
-
+```
 
 
 ---
 
 ##  Features
+
 - Data cleaning with Pandas
 - Interactive visualizations with Plotly
 - Insights on top coffee-consuming countries
+```
 
----
 
+```
 ##  Example Visualization
+
 ![Coffee Plot](visualizations/top_consumers.png)
+```
 
----
 
+```
 ##  Installation
+```bash
 Clone this repo and install dependencies:
 ```bash
 git clone https://github.com/dewwnut/coffee-consumption-project.git
 cd coffee-consumption-project
 pip install -r requirements.txt
+```
+
+Author
+
+Nada Badran
